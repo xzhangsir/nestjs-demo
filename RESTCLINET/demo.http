@@ -2,10 +2,12 @@
 # GET http://localhost:3000/girl/getGirlById 
 # ?id=1 
 
-POST http://localhost:3000/girl/add HTTP/1.1
-Content-Type: application/json
+# POST http://localhost:3000/girl/add HTTP/1.1
+# Content-Type: application/json
 
-{
-  "id":"4",
-  "name":"苹果"
-}
+# {
+#   "id":"4",
+#   "name":"苹果"
+# }
+
+GET http://localhost:3000/girl/findGirlById/1
